@@ -10,7 +10,7 @@ In order to compute the similarity between users, we can use Pearson's Correlati
 
 # Execution
 
-The training and testing files should have the following format: MovieId,CustomerId,Rating
+The training and testing files should have the following format: ItemId,UserId,Rating
 
 The code can be run as follows:
 python cf.py --train path/to/train_set --test path/to/test_set
